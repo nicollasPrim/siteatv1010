@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header class="header">
+        <a class="cab" href="index.html">Inicio</a>
+    </header>
+    <h1 class="tit">Programação Java</h1><br>
+    <p class="tex">Java é uma linguagem de programação orientada a objetos, desenvolvida pela Sun Microsystems na década de 1990 <br>
+        Caracteriza-se pela portabilidade ("escreva uma vez, execute em qualquer lugar"), gerenciamento automático de memória e segurança robusta. <br><br>
+
+        <h2 class="tit2">Principais Características:</h2>
+        <p class="tex">Orientação a Objetos: Facilita a organização e reutilização do código.
+            Multithreading: Permite a execução simultânea de múltiplas tarefas.
+            Bibliotecas Ricas: Oferece uma ampla gama de funcionalidades prontas.</p>
+        <h2 class="tit2">Aplicações:</h2>
+        <p class="tex">
+            Java é amplamente utilizada em desenvolvimento web, aplicativos móveis (Android), sistemas empresariais e software de grande escala.
+            Em resumo, Java é uma linguagem versátil e robusta, popular entre desenvolvedores em diversas áreas.
+
+        </p>
+        </p><br><br>
+        <h2 class="tit2">Código Java</h2>
+        <p class="tex">import java.util.Scanner; <br>
+            <br>
+            public class progama4 { <br>
+                public static void main(String[] args) { <br>
+                    Scanner sc = new Scanner(System.in); <br>
+                    <br>
+                    int pot1 = 0, pot2 = 0, res = 0; <br>
+                    boolean led = false; <br>
+                    System.out.print("Digite o valor do sensor potenciometro: "); <br>
+                    pot1 = sc.nextInt(); <br>
+                    System.out.print("Digite o valor do sensor potenciometro: "); <br>
+                    pot2 = sc.nextInt(); <br>
+                    <br>
+                    if (pot1 > pot2) { <br>
+                        res += pot2 + pot1; <br>
+                        System.out.printf("Resposta: %f", res); <br>
+                    }else{ <br>
+                        led = false; <br>
+                    } <br>
+                    <br>
+                    sc.close(); <br>
+                } <br>
+            }</p><br>
+        <img src="codajva.png" alt="Codigo em Java"><br><br>
+</body>
+</html>

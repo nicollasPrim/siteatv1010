@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>c++</title>
+</head>
+<body>
+    <header class="header">
+        <a class="cab" href="index.html">Inicio</a>
+    </header>
+    <h1 class="tit">O que é c++?</h1>
+    <p class="tex">
+        C++ é uma linguagem de programação de propósito geral, desenvolvida como uma extensão da linguagem C. Ela é multiparadigma, suportando programação procedural, orientada a objetos, funcional e genérica.</p>
+        <br>
+        <h2 class="tit2">Principais Características:</h2>
+        <p class="tex">Orientação a Objetos: Permite modelar problemas complexos com classes e objetos. <br>
+        Gerenciamento de Memória: Oferece controle direto sobre a alocação de memória. <br>
+        Bibliotecas Padrão: Inclui a Standard Template Library (STL), que oferece estruturas de dados e algoritmos prontos para uso. <br>
+        Desempenho e Portabilidade: É conhecida por sua eficiência e capacidade de ser executada em diferentes plataformas. <br><br>
+        <h2 class="tit2">Aplicações:</h2>
+        <p class="tex">
+            C++ é amplamente utilizada em sistemas operacionais, jogos, aplicativos financeiros e sistemas embarcados. Sua combinação de eficiência e flexibilidade a torna uma escolha popular entre desenvolvedores.
+        </p>
+        </p><br><br>
+        <h2 class="tit2">Código em c++</h2>
+        <p class="tex">// C++ code <br>
+            // <br>
+            int pod1 = 0;
+            <br>
+            int pod2 = 0;
+            <br>
+            int res = 0;
+            <br>
+            void setup() <br>
+            { <br>
+              pinMode(A1, INPUT); <br>
+              Serial.begin(9600); <br>
+              pinMode(A2, INPUT); <br>
+              <br>
+              pod1 = 10; <br>
+              pod2 = 25; <br>
+              res = 0; <br>
+            } <br>
+            <br>
+            void loop() <br>
+            { <br>
+              pod1 += analogRead(A1); <br>
+              Serial.println("pod1 ---------------"); <br>
+              Serial.println(pod1); <br>
+              pod2 += analogRead(A2); <br>
+              Serial.println("pod2  ---------------"); <br>
+              Serial.println(pod2); <br>
+              if (pod1 > pod2) { <br>
+                res += (pod1 + pod2); <br>
+                Serial.println("res ---------------"); <br>
+                Serial.println(res); <br>
+              } <br>
+              delay(10); // Delay a little bit to improve simulation performance
+            }</p><br>
+        <img src="codide.png" alt="Código na IDE Arduino"><br>
+        <p class="tex">Fonte: <a href="https://www.arduino.cc/en/software">Arduino IDE </a></p><br>
+
+</body>
+</html>

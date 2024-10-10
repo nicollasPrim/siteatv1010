@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(77, 117, 136);
+    font-size: 18px;
+    font-family: 'Cooper';
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(41, 82, 100);
+    
+}
+
+.header{
+    background-color: rgb(41, 82, 100);
+    padding: 4vh;
+
+}
+
+.cab{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    transition: 0.3s;
+    margin-left: 45px;
+}
+.cab:hover{
+    font-size: 25px;
+}
+.cab:visited{
+    color: rgb(255, 255, 255);
+}
+.tit{
+    margin-top: 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.tex{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+    margin-left: 30px;
+    margin-right: 800px;
+    text-align: justify;
+}
+
+img{
+    height: 350px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.tit2{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 37px;
+}
+
+.cab:has(.cab:hover) .cab:not(:hover) {
+    scale: 0.8;
+    opacity: 0.8;
+    filter: blur(4px);
+}
